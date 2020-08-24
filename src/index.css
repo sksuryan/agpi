@@ -1,3 +1,7 @@
+:root {
+  --secondary-font: 'Montserrat';
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +9,57 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(255, 255, 255, 0.747);
+}
+
+.circle{
+  position: fixed;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+}
+
+.circle1{
+  top: 0;
+  left: 0;
+  width: 360px;
+  height: 360px;
+  background-color: rgba(81, 229, 255, 0.250);
+}
+
+.circle2{
+  top: 280px;
+  left: 280px;
+  width: 240px;
+  height: 240px;
+  background-color: rgba(255, 81, 81, 0.375);
+}
+
+.circle3{
+  bottom: 0;
+  right: 0;
+  width: 240px;
+  height: 240px;
+  background-color: rgba(255, 252, 81, 0.500);
+}
+
+@media (max-width: 768px){
+  .circle1{
+    width: 240px;
+    height: 240px;
+  }
+  
+  .circle2{
+    top: 280px;
+    left: 240px;
+    width: 180px;
+    height: 180px;
+  }
+  
+  .circle3{
+    width: 180px;
+    height: 180px;
+  }
 }
 
 code {

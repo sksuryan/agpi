@@ -3,7 +3,7 @@
   width: 100%;
   height: 100vh;
   box-sizing: border-box;
-  background: #eeeeee;
+  backdrop-filter: blur(60px);
 }
 
 .App-img{
