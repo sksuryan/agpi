@@ -16,6 +16,7 @@
 
     padding: 6px 0 0 0;
     box-sizing: border-box;
+    z-index: 1;
 }
 
 .nav ul{
@@ -34,6 +35,7 @@
     font-size: 18px;
     font-weight: 400;
     text-transform: lowercase;
+    color: var(--nav-font-color);
 
     cursor: pointer;
 }
@@ -51,15 +53,17 @@
         display: block;
         height: 2px;
         left: 50%;
+        width: 0;
         position: absolute;
-        background: #000;
-        transition: width 0.3s ease, left 0.3s ease;
+        background: var(--background-color);
+        transition: width 0.5s ease, left 0.5s ease, background 0.5s ease;
         width: 0;
     }
     
     .nav ul li:hover:after { 
         width: 100%; 
         left: 0; 
+        background: var(--nav-font-color);
     }
 
     .nav img:hover{

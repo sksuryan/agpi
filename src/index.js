@@ -6,9 +6,10 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <div className='circle circle1'></div>
-    <div className='circle circle2'></div>
-    <div className='circle circle3'></div>
+    <div className='background-text graphics'>Graphics</div>
+    <div className='background-text processing'>Processing</div>
+    <div className='background-text amity'>Amity</div>
+    <div className='background-text image'>Image</div>
     <App />
   </React.StrictMode>,
   document.getElementById('root')

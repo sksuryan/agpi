@@ -2,7 +2,7 @@
   text-align: center;
   width: 100%;
   box-sizing: border-box;
-  backdrop-filter: blur(60px);
+  z-index: 1;
 }
 
 .App-img{
@@ -12,14 +12,4 @@
   padding-top: 108px;
   box-sizing: border-box;
   object-fit: contain;
-}
-
-.App-header {
-  display: flex;
-  height: 38%;
-  padding-top: 36px;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  box-sizing: border-box;
-  color: #222831;
 }

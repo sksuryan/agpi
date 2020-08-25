@@ -1,5 +1,9 @@
 :root {
   --secondary-font: 'Montserrat';
+  --default-font-color: #f0f0f0;
+  --background-color: #161616;
+  --nav-font-color: #dddddd;
+  --background-text-color: #0e0e0e;
 }
 
 *{
@@ -13,60 +17,44 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgba(255, 255, 255, 0.747);
+  background-color: var(--background-color);
 }
 
-.circle{
-  position: fixed;
-  width: 240px;
-  height: 240px;
-  border-radius: 50%;
+.background-text{
+  position: absolute;
+
+  font-size: 264px;
+  font-family: var(--secondary-font);
+  font-weight: 900;
+  color: var(--background-text-color);
+  
+  overflow: hidden;
 }
 
-.circle1{
-  top: 0;
-  left: 0;
-  width: 360px;
-  height: 360px;
-  background-color: rgba(81, 229, 255, 0.250);
+.processing{
+  bottom: 1%;
+  right: 300px;
 }
 
-.circle2{
-  top: 280px;
-  left: 280px;
-  width: 240px;
-  height: 240px;
-  background-color: rgba(255, 81, 81, 0.375);
+.amity{
+  bottom: calc(1% + 288px * 2);
+  left: 5%;
 }
 
-.circle3{
+.image{
+  bottom: calc(1% + 288px);
+  right: 300px;
+}
+
+.graphics{
   bottom: 0;
   right: 0;
-  width: 240px;
-  height: 240px;
-  background-color: rgba(255, 252, 81, 0.500);
+  transform: rotate(270deg) translateX(40%) translateY(140%);
 }
 
-@media (max-width: 768px){
-  .circle1{
-    width: 240px;
-    height: 240px;
+@media (max-width: 1024px){
+  .amity{
+    left: unset;
+    right: 300px;
   }
-  
-  .circle2{
-    top: 280px;
-    left: 240px;
-    width: 180px;
-    height: 180px;
-  }
-  
-  .circle3{
-    width: 180px;
-    height: 180px;
-  }
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
