@@ -7,14 +7,18 @@
 
     display: flex;
     height: 10vh;
-    width: 90vw;
+    width: 100vw;
 
+    padding: 0 5%;
+    padding-top: 6px;
     margin: 0 auto;
 
     justify-content: space-between;
     align-items: center;
 
-    padding: 6px 0 0 0;
+    background-color: #ffffff00;
+    transition: background-color ease 0.4s;
+
     box-sizing: border-box;
     z-index: 1;
 }
@@ -63,7 +67,7 @@
     .nav ul li:hover:after { 
         width: 100%; 
         left: 0; 
-        background: var(--nav-font-color);
+        background: var(--highlight-color);
     }
 
     .nav img:hover{

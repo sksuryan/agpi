@@ -4,6 +4,7 @@
   --background-color: #161616;
   --nav-font-color: #dddddd;
   --background-text-color: #0e0e0e;
+  --highlight-color: #6886c5;
 }
 
 *{
@@ -29,6 +30,22 @@ body {
   color: var(--background-text-color);
   
   overflow: hidden;
+}
+
+.background-heading{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  font-family: var(--secondary-font);
+  font-size: 232px;
+  font-weight: 900;
+  color: var(--background-text-color);
+  
+  transform: rotate(270deg) translateX(35%) translateY(80%);
+  user-select: none;
+
+  z-index: 0;
 }
 
 .processing{
