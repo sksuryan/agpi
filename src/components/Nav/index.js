@@ -37,10 +37,10 @@ class Nav extends React.Component{
             <div className='nav' style={this.state.style}>
                 <a href='.'><img src={logo} alt='logo'></img></a>
                 <ul>
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Events</li>
-                    <li>Team</li>
+                    <li><a href='#hero-section'>Home</a></li>
+                    <li><a href='#about'>About Us</a></li>
+                    <li><a href='#events'>Events</a></li>
+                    <li><a href='#teams'>Team</a></li>
                 </ul>
             </div>
         );

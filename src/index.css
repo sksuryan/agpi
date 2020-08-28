@@ -11,6 +11,11 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+  scroll-padding-block-start: 10vh;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -42,7 +47,8 @@ body {
   font-weight: 900;
   color: var(--background-text-color);
   
-  transform: rotate(270deg) translateX(35%) translateY(80%);
+  transform: rotate(270deg) translate(85%,-60%);
+  transform-origin: right center;
   user-select: none;
 
   z-index: 0;

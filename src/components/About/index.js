@@ -4,7 +4,7 @@ import './style.css';
 class About extends React.Component{
     render(){
         return (
-            <section className='about'>
+            <section id='about'>
                 <div className='background-heading'>About</div>
                 <h1 className='about__heading'>About Us</h1>
                 <div className='about__paras'>

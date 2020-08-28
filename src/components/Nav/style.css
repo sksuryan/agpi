@@ -1,6 +1,5 @@
 .nav{
     position: fixed;
-    position: -webkit-sticky;
     top: 0;
     left: 0;
     right: 0;
@@ -31,7 +30,7 @@
     align-items: center;
 }
 
-.nav ul li{
+.nav ul li a{
     position: relative;
     margin: 0 18px;
     padding: 6px;
@@ -42,6 +41,7 @@
     color: var(--nav-font-color);
 
     cursor: pointer;
+    text-decoration: none;
 }
 
 .nav img{
@@ -51,7 +51,7 @@
 }
 
 @media (min-width: 768px){
-    .nav ul li:after {
+    .nav ul li a:after {
         bottom: 0;
         content: "";
         display: block;
@@ -64,7 +64,7 @@
         width: 0;
     }
     
-    .nav ul li:hover:after { 
+    .nav ul li a:hover:after { 
         width: 100%; 
         left: 0; 
         background: var(--highlight-color);

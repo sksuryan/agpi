@@ -1,4 +1,4 @@
-.hero-section{
+#hero-section{
     display: flex;
     position: relative;
     flex-direction: column;
@@ -11,7 +11,8 @@
     justify-content: center;
 }
 
-.hero-section__title{
+.hero-section__title{    
+    position: relative;
     font-family: var(--secondary-font);
     font-size: 54px;
     font-weight: 900;

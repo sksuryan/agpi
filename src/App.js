@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import './App.css';
 import HeroSection from './components/HeroSection';
 import About from './components/About';
+import Events from './components/Events';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Nav />
       <HeroSection />
       <About />
+      <Events />
     </div>
   );
 }
