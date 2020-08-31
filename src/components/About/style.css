@@ -2,10 +2,13 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    min-height: 90vh;
+    height: max-content;
     width: 90%;
     margin: 0 auto;
+    margin-bottom: 10vh;
     padding: 12px 0px;
+
+    overflow: hidden;
 }
 
 .about__heading{
@@ -56,6 +59,9 @@
 }
 
 @media (max-width: 768px){
+    #about{
+        margin-bottom: initial;
+    }
     .about__heading{
         font-size: 36px;
     }
@@ -65,9 +71,6 @@
 }
 
 @media (max-width: 425px){
-    .about{
-        height: fit-content;
-    }
     .about__para{
         font-size: 14x;
         width: 94%;
