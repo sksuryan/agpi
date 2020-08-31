@@ -2,9 +2,8 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    height: 90vh;
+    min-height: 90vh;
     width: 90%;
-    overflow: hidden;
     margin: 0 auto;
     padding: 12px 0px;
 }
@@ -20,7 +19,15 @@
 
     padding-bottom: 2px;
     margin: 0 auto;
-    border-bottom: solid var(--highlight-color) 2px;
+}
+
+.about__heading::after{
+    content: '';
+    display: block;
+    height: 2px;
+    background: var(--highlight-color);
+    background-repeat: no-repeat;
+    background-position: center bottom;
 }
 
 .about__paras{

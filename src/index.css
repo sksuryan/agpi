@@ -4,7 +4,7 @@
   --background-color: #161616;
   --nav-font-color: #dddddd;
   --background-text-color: #0e0e0e;
-  --highlight-color: #6886c5;
+  --highlight-color: linear-gradient(to right, #a8ff78, #78ffd6);
 }
 
 *{
