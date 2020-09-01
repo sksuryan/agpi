@@ -36,7 +36,8 @@ body {
   font-family: var(--secondary-font);
   font-weight: 900;
   color: var(--background-text-color);
-  
+
+  user-select: none;
   overflow: hidden;
 }
 

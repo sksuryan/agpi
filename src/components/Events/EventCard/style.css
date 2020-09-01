@@ -9,10 +9,10 @@
 
     background: var(--background-color);
 
-    border: 3px solid;
+    border: 2px solid;
     border-image-source: linear-gradient(to right, #fc5c7d, #6a82fb);
     border-image-slice: 1;
-    border-image-width: 3px;
+    border-image-width: 2px;
     box-sizing: border-box;
 
     padding: 16px 28px;
@@ -56,7 +56,7 @@
     font-size: 20px;
     color: var(--default-font-color);
 
-    width: 50%;
+    width: 40%;
     align-self: center;
     background: none;
     outline: none;
@@ -64,6 +64,7 @@
     border: solid 2px;
     border-image-source: var(--highlight-color);
     border-image-slice: 1;
+    border-image-width: 1px;
 
     padding: 6px;
     margin-top: 12px;
@@ -78,6 +79,10 @@
     .event-card__desc,
     .event-card__details{
         font-size: 14px;
+    }
+    .event-card__register{
+        width: 50%;
+        font-size: 16px;
     }
 }
 
