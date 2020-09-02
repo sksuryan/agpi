@@ -20,6 +20,8 @@
     font-size: 48px;
     color: var(--default-font-color);
 
+    text-transform: uppercase;
+    
     padding-bottom: 2px;
     margin: 0 auto;
 }

@@ -4,6 +4,7 @@ import './App.css';
 import HeroSection from './components/HeroSection';
 import About from './components/About';
 import Events from './components/Events';
+import Team from './components/Team';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <HeroSection />
       <About />
       <Events />
+      <Team />
     </div>
   );
 }

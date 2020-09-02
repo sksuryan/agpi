@@ -40,7 +40,7 @@ class Nav extends React.Component{
                     <li><a href='#hero-section'>Home</a></li>
                     <li><a href='#about'>About Us</a></li>
                     <li><a href='#events'>Events</a></li>
-                    <li><a href='#teams'>Team</a></li>
+                    <li><a href='#team'>Team</a></li>
                 </ul>
             </div>
         );

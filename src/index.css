@@ -4,7 +4,9 @@
   --background-color: #161616;
   --nav-font-color: #dddddd;
   --background-text-color: #0e0e0e;
-  --highlight-color: linear-gradient(to right, #a8ff78, #78ffd6);
+  --nav-highlight-color: linear-gradient( 315deg, #81FFEF 10%, #F067B4 100%);
+  --highlight-color: linear-gradient( 135deg, #FFA6B7 10%, #1E2AD2 100%);
+  
 }
 
 *{

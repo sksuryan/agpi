@@ -5,7 +5,7 @@
     height: max-content;
     width: 90%;
     margin: 0 auto;
-    margin-bottom: 12px;
+    margin-bottom: 10vh;
     padding: 12px 0px;
 
     overflow: hidden;
@@ -20,9 +20,10 @@
     font-size: 48px;
     color: var(--default-font-color);
 
+    text-transform: uppercase;
+
     padding-bottom: 2px;
     margin: 0 auto;
-    border-bottom: solid var(--highlight-color) 2px;
 }
 
 .events__heading::after{
@@ -40,7 +41,6 @@
     display: grid;
     width: 90%;
     margin: 36px auto;
-    margin-top: 48px;
     gap: 3%;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
@@ -57,20 +57,24 @@
 }
 
 @media (max-width: 768px){
+    #events{
+        margin-bottom: initial;
+    }
     .events__heading{
         font-size: 36px;
+    }
+    .events__card-container{
+        margin: 24px auto;
     }
 }
 
 @media (max-width: 425px){
-    .about{
-        height: fit-content;
-    }
     .events__heading{
         font-size: 30px;
     }
     .events__card-container{
         grid-template-columns: 1fr;
         gap: 24px; 
+        margin: 16px;
     }
 }

@@ -10,7 +10,7 @@
     background: var(--background-color);
 
     border: 2px solid;
-    border-image-source: linear-gradient(to right, #fc5c7d, #6a82fb);
+    border-image-source: linear-gradient( 135deg, #F6D242 2%, #FF52E5 100%);
     border-image-slice: 1;
     border-image-width: 2px;
     box-sizing: border-box;
@@ -61,10 +61,8 @@
     background: none;
     outline: none;
 
-    border: solid 2px;
-    border-image-source: var(--highlight-color);
-    border-image-slice: 1;
-    border-image-width: 1px;
+    background-color: #394989;
+    border: none;
 
     padding: 6px;
     margin-top: 12px;
