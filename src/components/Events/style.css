@@ -39,10 +39,10 @@
 .events__card-container{
     position: relative;
     display: grid;
-    width: 90%;
+    width: 85%;
     margin: 36px auto;
     gap: 3%;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 0.8fr 0.8fr 0.8fr;
     justify-content: center;
     align-items: center;
 }
@@ -53,6 +53,7 @@
     }
     .events__card-container{
         grid-template-columns: 1fr 1fr; 
+        width: 90%;
     }
 }
 

@@ -6,13 +6,15 @@ import About from './components/About';
 import Events from './components/Events';
 import Team from './components/Team';
 import Footer from './components/Footer';
+import * as data from './data.json';
 
 function App() {
+  const about = data.about;
   return (
     <div className="App">
       <Nav />
       <HeroSection />
-      <About />
+      <About about={about}/>
       <Events />
       <Team />
       <Footer />
