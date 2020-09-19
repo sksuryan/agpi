@@ -10,7 +10,7 @@
     background: var(--background-color);
 
     border: 2px solid;
-    border-image-source: linear-gradient( 135deg, #F6D242 2%, #FF52E5 100%);
+    border-image-source: var(--highlight-color);
     border-image-slice: 1;
     border-image-width: 2px;
     box-sizing: border-box;

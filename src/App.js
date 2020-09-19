@@ -5,6 +5,7 @@ import HeroSection from './components/HeroSection';
 import About from './components/About';
 import Events from './components/Events';
 import Team from './components/Team';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Events />
       <Team />
+      <Footer />
     </div>
   );
 }
